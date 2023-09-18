@@ -6,7 +6,8 @@ function Header() {
             <img src="/logo.jpg" />
 
             <div className='header_search'>
-                <input type='text' />
+                <input type="text" />
+                <img src="" alt="" />
             </div>
         </div>
     )
