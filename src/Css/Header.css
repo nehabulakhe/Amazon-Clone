@@ -53,5 +53,7 @@
   align-items: center;
   color: white;
 }
-.header__optionLineTwo__basketCount {
+.header_basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
 }
