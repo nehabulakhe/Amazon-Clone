@@ -7,7 +7,7 @@ function Product({ title, image, price, rating }) {
             <div className="product_info">
                 <p>{title}</p>
                 <p className="product_price">
-                    <small>$</small>
+                    <small>Rs </small>
                     <strong>{price}</strong>
                 </p>
                 <div className="product_rating">

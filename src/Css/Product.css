@@ -16,6 +16,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 .product_info {
   text-align: left;
@@ -37,4 +38,5 @@
 
 .product_rating {
   display: flex;
+  margin-top: -24px;
 }
