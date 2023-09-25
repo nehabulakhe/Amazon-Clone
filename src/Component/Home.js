@@ -8,7 +8,12 @@ function Home() {
             <div className="home_container">
                 <img className='home_image' src="https://images-eu.ssl-images-amazon.com/images/G/31/vendorcentral/supporthub/trainingCourses/learningPaths/5300-Kitchen---Water-bottles--Lunch-box--hero-v2-3000-x-1200-_Under_1._CB601243436_.jpg" alt="banner" />
                 <div className="home__row">
-                    <Product />
+                    <Product
+                        title={"Boat Headphones"}
+                        price={29.99}
+                        image={"https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Boat_Desktop_Qc_1x._SY116_CB577919562_.jpg"}
+                        rating={3}
+                    />
                     <Product />
                 </div>
                 <div className="home__row">
