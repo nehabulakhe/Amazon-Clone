@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
 import '../Css/Home.css';
+import Product from './Product';
 
 
 function Home() {
     return (
         <div className='home'>
+            
             <div className="home_container">
             <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
@@ -17,22 +19,22 @@ function Home() {
                     </div>
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                        <img id="home_image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/Makeup-PCnf._CB578346476_.jpg" className="d-block w-100" alt="..." />
+                        <img id="home_image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/Makeup-PCnf._CB578346476_.jpg" className="d-block w-100" alt="..."  height="100%"/>
                         </div>
                         <div className="carousel-item">
-                        <img id="home_image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Sports/September/GFD/Hero/under-4999-hero-Sep-GFD_3000x1200-UN-REC._CB578761047_.jpg" className="d-block w-100" alt="..." />
+                        <img id="home_image" src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Sports/September/GFD/Hero/under-4999-hero-Sep-GFD_3000x1200-UN-REC._CB578761047_.jpg" className="d-block w-100" alt="..."  height="100%"/>
                         </div>
                         <div className="carousel-item">
-                        <img id="home_image"  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/Baby/D92807365-_1_Tallhero_2xx._CB598669664_.jpg" className="d-block w-100" alt="..." />
+                        <img id="home_image"  src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Baby/cnnjpp1/Baby/D92807365-_1_Tallhero_2xx._CB598669664_.jpg" className="d-block w-100" alt="..." height="100%" />
                         </div>
                         <div className="carousel-item">
-                        <img id="home_image"  src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg" className="d-block w-100" alt="..." />
+                        <img id="home_image"  src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/Shreyansh/BAU/Unrexc/D70978891_INWLD_BAU_Unrec_Uber_PC_Hero_3000x1200._CB594707876_.jpg" className="d-block w-100" alt="..." height="100%" />
                         </div>
                         <div className="carousel-item">
-                        <img id="home_image"  src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/Sept/Onecard/Jewellery/Jewl_3000._CB595761836_.jpg" className="d-block w-100" alt="..." />
+                        <img id="home_image"  src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Softlines_JWL_SH_GW_Assets/Sept/Onecard/Jewellery/Jewl_3000._CB595761836_.jpg" className="d-block w-100" alt="..."  height="100%"/>
                         </div>
                         <div className="carousel-item">
-                        <img id="home_image"  src=" https://images-eu.ssl-images-amazon.com/images/G/31/2023/GateWay/September/Unrec/Helmet_PC_3000-1200._CB578643475_.jpg" className="d-block w-100" alt="..." />
+                        <img id="home_image"  src=" https://images-eu.ssl-images-amazon.com/images/G/31/2023/GateWay/September/Unrec/Helmet_PC_3000-1200._CB578643475_.jpg" className="d-block w-100" alt="..." height="100%" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
